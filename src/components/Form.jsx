@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export const Form = () => {
+export const Form = ({GetFormData}) => {
     const [form,setForm]=useState({
         Name:"",
         Age:"",
@@ -21,7 +21,7 @@ export const Form = () => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(form)
+        GetFormData(form)
     }
     return (
         <>
