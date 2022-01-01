@@ -1,0 +1,32 @@
+img {
+  width: 250px;
+  border-radius: 50%;
+}
+.TableItemclass {
+  display: flex;
+  background-color: #086e7d;
+  padding: 30px;
+  border-radius: 15px;
+  width: 550px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.TableItemclass > div:nth-child(2) {
+  margin-left: 40px;
+  width: 280px;
+}
+.TableItemclass > div:nth-child(3) {
+  margin-left: 35px;
+}
+.deleteButton {
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding-top: 3px;
+}
+.deleteButton:hover {
+  background-color: #f44336;
+}

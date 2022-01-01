@@ -2,7 +2,16 @@
   text-align: center;
 }
 
-td {
-  border: 1px solid #333;
-  padding: 5px;
+body {
+  background-color: #1a5f7a;
+  margin-top: 20px;
+  color: white;
+}
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  height: 25px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
